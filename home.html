@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <h1>🌍 Natural Disaster Prediction System</h1>
+</header>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/barchart">Bar Chart</a>
+</nav>
+
+<section class="container">
+    <h2>Welcome to the Dashboard</h2>
+    <p>This system predicts natural disasters like earthquakes using AI & ML models.</p>
+
+    <div class="card">
+        <h3>📊 View Analysis</h3>
+        <p>See earthquake prediction graphs and charts.</p>
+        <a href="/barchart" class="btn">View Charts</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Natural Disaster Prediction System</p>
+</footer>
+
+</body>
+</html>
